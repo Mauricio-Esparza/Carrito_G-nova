@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="./images/favicon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito Genova - Velas de Soja</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="./app.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-section container">
+            <img class="logo" src="./images/apple-touch-icon.png" alt="Genova Velas de Soja">
+            <div id="btn-cart-open">
+                <img class="cart" src="./images/cart.png" alt="Carrito">
+                <p class="count-product">0</p>
+            </div>
+            <div class="cart-products" id="products-id">
+                <p class="close-btn" id="btn-cart-close">X</p>
+                <h3>Mi carrito</h3>
+                <div class="card-items"></div>
+                <h2>Total: $<strong class="price-total">0</strong></h2>
+                <div class="cart-actions">
+                    <button type="button" id="btn-vaciar" class="btn-cart-action btn-vaciar">Vaciar</button>
+                    <button type="button" id="btn-comprar" class="btn-cart-action btn-comprar">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="products"></div>
+    </main>
+
+    <footer>
+        <p>Genova Velas de Soja - Todos los derechos reservados</p>
+        <a href="https://www.instagram.com/genova.velasdesoja" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.facebook.com/GenovaVelasdeSoja" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook"></i> Facebook
+        </a>
+        <a href="https://wa.me/5492617066927?text=Hola%20vengo%20de%20la%20web,%20quiero%20hacer%20un%20pedido"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+    </footer>
+
+</body>
+
+</html>

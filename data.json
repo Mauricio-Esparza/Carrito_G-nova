@@ -1,0 +1,13 @@
+[
+  { "id": "1", "title": "Margarita en cuenco de yeso", "price": 4200, "image": "./images/products/cuenco-margarita.jpg" },
+  { "id": "2", "title": "Oso sentado en nube", "price": 3500, "image": "./images/products/oso-con-nube.jpeg" },
+  { "id": "3", "title": "Oso teddy en caramelera de yeso", "price": 3700, "image": "./images/products/teddy_con_caramelera.jpg" },
+  { "id": "4", "title": "Bandeja de yeso ceramico", "price": 8000, "image": "./images/products/estrella_de_mar.jpeg" },
+  { "id": "5", "title": "Flor de loto", "price": 2800, "image": "./images/products/flor_de_loto.jpg" },
+  { "id": "6", "title": "Tulipanes en vaso tenesse", "price": 4500, "image": "./images/products/tulipanes.jpg" },
+  { "id": "7", "title": "Vela angel pensando", "price": 7300, "image": "./images/products/vela-angel.jpg" },
+  { "id": "8", "title": "Vela en recipiente trenzado pequeño", "price": 2900, "image": "./images/products/trenzado_pequeño.jpeg" },
+  { "id": "9", "title": "Vela de unicornio", "price": 3500, "image": "./images/products/unicornio.jpg" },
+  { "id": "10", "title": "Velon comunion (500gr)", "price": 5000, "image": "./images/products/velon_comunion.jpg" },
+  { "id": "11", "title": "Oso saludando", "price": 2500, "image": "./images/products/oso_Saludando.jpeg" }
+]
